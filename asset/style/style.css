@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Sans Culottes';
+    src: url('../font/SansCulottes.ttf') format('truetype');
+
+}
+:root{
+    --green-color:#0CCC2F;
+    --yellow-color:#FCE023;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sans Culottes';
+
+}
+header{
+    background-image: url('../image/Layer\ 90\ copy.png');
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 180px;
+}
+header > h1{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+}
+header > h1 > span{
+color: var(--green-color);
+}
+header > h1 > span > span{
+color: var(--yellow-color);
+}
+header .input{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px 15px;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+header .input .logo img{
+width: 20px;
+}
+header .input .one{
+display: flex;
+align-items: center;
+column-gap: 10px;
+width: 70%;
+}
+header .input .one input{
+font-size: 18px;
+border: none;
+outline: none;
+width: 100%;
+
+}
+header .input .two button{
+border-radius: 8px;
+background-color: var(--green-color);
+color: white;
+border: none;
+outline: none;
+padding: 8px 10px;
+cursor: pointer;
+}
+header > .links{
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 11;
+}
+header > .links > button{
+display: flex;
+align-items: center;
+background-color: black;
+color: white;
+border: none;
+outline: none;
+padding: 7px;
+column-gap: 4px;
+border: 1px solid white;
+border-radius: 5px;
+cursor: pointer;
+
+}
+header > .links > button img{
+max-width: 15px;
+width: 15px;
+}
+header > .title{
+    font-weight: 400;
+    font-size: 150px;
+    color: var(--green-color);
+    margin: 0;
+}
+header > .title > span{
+color: var(--yellow-color);
+}
+header > h2{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+header > .dog{
+    width: 200px;
+    bottom: -42px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 10;
+}
+header > .layer{
+    width: 1200px;
+    bottom: -42px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+header > .coin_1{
+    width: 170px;
+    top: 170px;
+    right: 0;
+    position: absolute;
+}
+header > .coin_2{
+    width: 60px;
+    top: 300px;
+    right: 270px;
+    position: absolute;
+}
+header > .coin_3{
+    width: 60px;
+    top: 290px;
+    left: 270px;
+    position: absolute;
+}
+header > .coin_4{
+    width: 100px;
+    bottom: 140px;
+    right: 200px;
+    position: absolute;
+}
+header > .coin_5{
+    width: 100px;
+    bottom: 90px;
+    left: 0;
+    position: absolute;
+}
