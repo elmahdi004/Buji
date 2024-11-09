@@ -161,3 +161,84 @@ header > .coin_5{
     left: 0;
     position: absolute;
 }
+/* -------- start download  */
+.download{
+    background-image: url('../image/layer_2.png');
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.download > .container{
+    margin: 0 100px;
+    padding: 20px 0;
+}
+.download .line{
+    width: 100%;
+    height: 1.5px;
+    background-color: #48565B;
+    display: block;
+}
+.download .content .one{
+display: flex;
+column-gap: 35px;
+padding: 25px 0;
+}
+.download .content .one .upload {
+background: white;
+display: flex;
+flex-direction: column;
+cursor: pointer;
+}
+.download .content .one .upload .image {
+padding: 25px 85px;
+}
+.download .content .one .upload .dow {
+background-color: #EA0001;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+padding: 10px 0;
+margin-top: auto;
+}
+.download .content .one .upload .dow span{
+font-weight: 200;
+font-size: 18px;
+}
+.download .content .text h1{
+color: white;
+font-weight: 400;
+font-size: 30px;
+padding-bottom: 20px;
+}
+.download .content .text h1 > span{
+color: var(--yellow-color);
+}
+.download .content .text p{
+padding-bottom: 14px;
+color: white;
+font-size: 14px;
+font-weight: normal;
+line-height: 19px;
+}
+.download .content .two {
+padding-top: 25px;
+}
+.download .content .two p{
+padding-bottom: 14px;
+color: white;
+font-size: 14px;
+font-weight: normal;
+line-height: 19px;
+}
+
+.download > .shadow{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+}
+
+/* ------ end download  */
